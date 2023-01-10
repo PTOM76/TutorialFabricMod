@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialfabricmod",
+  "version": "${version}",
+  "name": "TutorialFabricMod",
+  "description": "",
+  "authors": [
+    "PitaQ"
+  ],
+  "contact": {
+    "repo": "https://github.com/PTOM76/TutorialFabricMod"
+  },
+  "license": "MIT",
+  "icon": "assets/tutorialfabricmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.ptom76.tutorialfabricmod.client.TutorialFabricClientMod"
+    ],
+    "main": [
+      "com.github.ptom76.tutorialfabricmod.TutorialFabricMod"
+    ]
+  },
+  "mixins": [
+    "tutorialfabricmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

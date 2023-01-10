@@ -1,0 +1,15 @@
+{
+  "item.tutorialfabricmod.tutorial_item": "チュートリアルアイテム",
+  "item.tutorialfabricmod.tutorial_sword": "チュートリアルの剣",
+  "item.tutorialfabricmod.tutorial_axe": "チュートリアルのオノ",
+  "item.tutorialfabricmod.tutorial_pickaxe": "チュートリアルのツルハシ",
+  "item.tutorialfabricmod.tutorial_shovel": "チュートリアルのシャベル",
+  "item.tutorialfabricmod.tutorial_hoe": "チュートリアルのクワ",
+  "item.tutorialfabricmod.tutorial_helmet": "チュートリアルのヘルメット",
+  "item.tutorialfabricmod.tutorial_chestplate": "チュートリアルのチェストプレート",
+  "item.tutorialfabricmod.tutorial_leggings": "チュートリアルのレギンス",
+  "item.tutorialfabricmod.tutorial_boots": "チュートリアルのブーツ",
+  "block.tutorialfabricmod.tutorial_block": "チュートリアルブロック",
+
+  "itemgroup.tutorialfabricmod.tutorial": "Tutorial Mod"
+}

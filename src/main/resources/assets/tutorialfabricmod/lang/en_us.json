@@ -1,0 +1,15 @@
+{
+  "item.tutorialfabricmod.tutorial_item": "Tutorial Item",
+  "item.tutorialfabricmod.tutorial_sword": "Tutorial Sword",
+  "item.tutorialfabricmod.tutorial_axe": "Tutorial Axe",
+  "item.tutorialfabricmod.tutorial_pickaxe": "Tutorial Pickaxe",
+  "item.tutorialfabricmod.tutorial_shovel": "Tutorial Shovel",
+  "item.tutorialfabricmod.tutorial_hoe": "Tutorial Hoe",
+  "item.tutorialfabricmod.tutorial_helmet": "Tutorial Helmet",
+  "item.tutorialfabricmod.tutorial_chestplate": "Tutorial Chestplate",
+  "item.tutorialfabricmod.tutorial_leggings": "Tutorial Leggings",
+  "item.tutorialfabricmod.tutorial_boots": "Tutorial Boots",
+  "block.tutorialfabricmod.tutorial_block": "Tutorial Block",
+
+  "itemgroup.tutorialfabricmod.tutorial": "Tutorial Mod"
+}

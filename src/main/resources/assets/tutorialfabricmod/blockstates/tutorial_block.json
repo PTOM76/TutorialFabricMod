@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialfabricmod:block/tutorial_block"
+    }
+  }
+}

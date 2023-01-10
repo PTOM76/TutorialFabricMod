@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "tutorialfabricmod:tutorial_item"
+    }
+  },
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "item": "tutorialfabricmod:tutorial_block",
+    "count": 4
+  }
+}
