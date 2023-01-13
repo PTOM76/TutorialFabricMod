@@ -11,6 +11,7 @@ public class TutorialFabricMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
         // ブロックの登録
         Blocks.init();
 
