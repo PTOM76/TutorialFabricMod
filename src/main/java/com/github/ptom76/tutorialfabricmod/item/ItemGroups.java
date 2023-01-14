@@ -29,6 +29,6 @@ public class ItemGroups {
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_CHESTPLATE)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_LEGGINGS)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_BOOTS)));
-        ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_ENTITY_SPAWN_EGG)));
+        ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(BLUE_APPLE_MOB_SPAWN_EGG)));
     }
 }

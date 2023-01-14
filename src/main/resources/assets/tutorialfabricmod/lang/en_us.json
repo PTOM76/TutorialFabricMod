@@ -9,7 +9,8 @@
   "item.tutorialfabricmod.tutorial_chestplate": "Tutorial Chestplate",
   "item.tutorialfabricmod.tutorial_leggings": "Tutorial Leggings",
   "item.tutorialfabricmod.tutorial_boots": "Tutorial Boots",
+  "item.tutorialfabricmod.blue_apple_mob_spawn_egg": "Blue Apple Mob Spawn Egg",
   "block.tutorialfabricmod.tutorial_block": "Tutorial Block",
 
-  "itemgroup.tutorialfabricmod.tutorial": "Tutorial Mod"
+  "itemGroup.tutorialfabricmod.tutorial": "Tutorial Mod"
 }

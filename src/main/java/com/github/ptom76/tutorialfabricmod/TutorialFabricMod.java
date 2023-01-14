@@ -1,6 +1,7 @@
 package com.github.ptom76.tutorialfabricmod;
 
 import com.github.ptom76.tutorialfabricmod.block.Blocks;
+import com.github.ptom76.tutorialfabricmod.entity.Entities;
 import com.github.ptom76.tutorialfabricmod.item.ItemGroups;
 import com.github.ptom76.tutorialfabricmod.item.Items;
 import net.fabricmc.api.ModInitializer;
@@ -11,6 +12,9 @@ public class TutorialFabricMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
+        // エンティティの登録
+        Entities.init();
 
         // ブロックの登録
         Blocks.init();

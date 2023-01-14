@@ -1,6 +1,7 @@
 package com.github.ptom76.tutorialfabricmod.item;
 
 import com.github.ptom76.tutorialfabricmod.block.Blocks;
+import com.github.ptom76.tutorialfabricmod.entity.Entities;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -31,6 +32,9 @@ public class Items {
     public static Item TUTORIAL_LEGGINGS = new ArmorItem(TUTORIAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings());
     public static Item TUTORIAL_BOOTS = new ArmorItem(TUTORIAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings());
 
+    // スポーンエッグ
+    public static Item BLUE_APPLE_MOB_SPAWN_EGG = new SpawnEggItem(Entities.BLUE_APPLE_MOB, 0x1276B4, 0xFFC7FF, new Item.Settings());
+
     public static void init() {
         // アイテムを登録
         Registry.register(Registries.ITEM, id("tutorial_item"), TUTORIAL_ITEM);
@@ -46,5 +50,7 @@ public class Items {
         Registry.register(Registries.ITEM, id("tutorial_chestplate"), TUTORIAL_CHESTPLATE);
         Registry.register(Registries.ITEM, id("tutorial_leggings"), TUTORIAL_LEGGINGS);
         Registry.register(Registries.ITEM, id("tutorial_boots"), TUTORIAL_BOOTS);
+
+        Registry.register(Registries.ITEM, id("blue_apple_mob_spawn_egg"), BLUE_APPLE_MOB_SPAWN_EGG);
     }
 }
