@@ -14,6 +14,8 @@ public class Items {
 
     // ブロック
     public static Item TUTORIAL_BLOCK =  new BlockItem(Blocks.TUTORIAL_BLOCK, new Item.Settings());
+    public static Item CLICK_COUNT_BLOCK =  new BlockItem(Blocks.CLICK_COUNT_BLOCK, new Item.Settings());
+    public static Item BLUE_APPLE_GENERATOR =  new BlockItem(Blocks.BLUE_APPLE_GENERATOR, new Item.Settings());
 
     // Material
     public static TutorialToolMaterial TUTORIAL_TOOL_MATERIAL = new TutorialToolMaterial();
@@ -39,6 +41,8 @@ public class Items {
         // アイテムを登録
         Registry.register(Registries.ITEM, id("tutorial_item"), TUTORIAL_ITEM);
         Registry.register(Registries.ITEM, id("tutorial_block"), TUTORIAL_BLOCK);
+        Registry.register(Registries.ITEM, id("click_count_block"), CLICK_COUNT_BLOCK);
+        Registry.register(Registries.ITEM, id("blue_apple_generator"), BLUE_APPLE_GENERATOR);
 
         Registry.register(Registries.ITEM, id("tutorial_sword"), TUTORIAL_SWORD);
         Registry.register(Registries.ITEM, id("tutorial_axe"), TUTORIAL_AXE);

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tutorialfabricmod:block/blue_apple_generator" },
+    "facing=south": { "model": "tutorialfabricmod:block/blue_apple_generator", "y": 180 },
+    "facing=west":  { "model": "tutorialfabricmod:block/blue_apple_generator", "y": 270 },
+    "facing=east":  { "model": "tutorialfabricmod:block/blue_apple_generator", "y": 90 }
+  }
+}

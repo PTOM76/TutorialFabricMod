@@ -20,6 +20,8 @@ public class ItemGroups {
         // クリエイティブタブへ追加
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_ITEM)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_BLOCK)));
+        ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(CLICK_COUNT_BLOCK)));
+        ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(BLUE_APPLE_GENERATOR)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_SWORD)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_AXE)));
         ItemGroupEvents.modifyEntriesEvent(TUTORIAL).register((entries -> entries.add(TUTORIAL_PICKAXE)));

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tutorialfabricmod:block/click_count_block_top",
+    "side": "tutorialfabricmod:block/click_count_block_side"
+  }
+}

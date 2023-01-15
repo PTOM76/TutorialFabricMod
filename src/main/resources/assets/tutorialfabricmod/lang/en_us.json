@@ -11,6 +11,8 @@
   "item.tutorialfabricmod.tutorial_boots": "Tutorial Boots",
   "item.tutorialfabricmod.blue_apple_mob_spawn_egg": "Blue Apple Mob Spawn Egg",
   "block.tutorialfabricmod.tutorial_block": "Tutorial Block",
+  "block.tutorialfabricmod.click_count_block": "Click Count Block",
+  "block.tutorialfabricmod.blue_apple_generator": "Blue Apple Generator",
 
   "itemGroup.tutorialfabricmod.tutorial": "Tutorial Mod"
 }

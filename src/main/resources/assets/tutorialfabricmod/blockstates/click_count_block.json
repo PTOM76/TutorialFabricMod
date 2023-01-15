@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tutorialfabricmod:block/click_count_block" },
+    "facing=south": { "model": "tutorialfabricmod:block/click_count_block", "y": 180 },
+    "facing=west":  { "model": "tutorialfabricmod:block/click_count_block", "y": 270 },
+    "facing=east":  { "model": "tutorialfabricmod:block/click_count_block", "y": 90 }
+  }
+}

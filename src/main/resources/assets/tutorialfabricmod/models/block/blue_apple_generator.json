@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "up": "tutorialfabricmod:block/blue_apple_generator/top",
+    "down": "tutorialfabricmod:block/blue_apple_generator/top",
+    "north": "tutorialfabricmod:block/blue_apple_generator/front",
+    "south": "tutorialfabricmod:block/blue_apple_generator/side",
+    "west": "tutorialfabricmod:block/blue_apple_generator/side",
+    "east": "tutorialfabricmod:block/blue_apple_generator/side",
+    "particle": "tutorialfabricmod:block/blue_apple_generator/top"
+  }
+}

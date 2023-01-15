@@ -10,6 +10,7 @@
   "item.tutorialfabricmod.tutorial_leggings": "チュートリアルのレギンス",
   "item.tutorialfabricmod.tutorial_boots": "チュートリアルのブーツ",
   "block.tutorialfabricmod.tutorial_block": "チュートリアルブロック",
+  "block.tutorialfabricmod.click_count_block": "クリックカウントブロック",
 
-  "itemgroup.tutorialfabricmod.tutorial": "Tutorial Mod"
+  "itemGroup.tutorialfabricmod.tutorial": "Tutorial Mod"
 }
