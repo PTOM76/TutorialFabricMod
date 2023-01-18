@@ -1,6 +1,7 @@
 package com.github.ptom76.tutorialfabricmod;
 
 import com.github.ptom76.tutorialfabricmod.block.Blocks;
+import com.github.ptom76.tutorialfabricmod.command.Commands;
 import com.github.ptom76.tutorialfabricmod.enchantment.Enchantments;
 import com.github.ptom76.tutorialfabricmod.entity.Entities;
 import com.github.ptom76.tutorialfabricmod.item.ItemGroups;
@@ -36,6 +37,9 @@ public class TutorialFabricMod implements ModInitializer {
 
         // エンチャントの登録
         Enchantments.init();
+
+        // コマンドの登録
+        Commands.init();
     }
     
     // Identifierを生成する
