@@ -7,6 +7,7 @@ import com.github.ptom76.tutorialfabricmod.entity.Entities;
 import com.github.ptom76.tutorialfabricmod.item.ItemGroups;
 import com.github.ptom76.tutorialfabricmod.item.Items;
 import com.github.ptom76.tutorialfabricmod.screenhandler.ScreenHandlers;
+import com.github.ptom76.tutorialfabricmod.sound.SoundEvents;
 import com.github.ptom76.tutorialfabricmod.tile.Tiles;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -16,6 +17,9 @@ public class TutorialFabricMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
+        // サウンドの登録
+        SoundEvents.init();
 
         // エンティティの登録
         Entities.init();

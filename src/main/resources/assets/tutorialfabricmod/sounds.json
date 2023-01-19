@@ -1,0 +1,8 @@
+{
+  "jump_sound":{
+    "subtitle": "subtitles.tutorialfabricmod.jump_sound",
+    "sounds": [
+      "tutorialfabricmod:jump_sound"
+    ]
+  }
+}

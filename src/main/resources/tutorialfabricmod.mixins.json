@@ -4,6 +4,7 @@
   "package": "com.github.ptom76.tutorialfabricmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PlayerEntityMixin",
     "StuffTimer"
   ],
   "client": [
