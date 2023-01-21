@@ -16,5 +16,8 @@ public class TutorialFabricClientMod implements ClientModInitializer {
 
         // スクリーン(クライアント側のGUI)の登録
         Screens.init();
+
+        // キーバインドの登録
+        KeyBindings.init();
     }
 }

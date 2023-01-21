@@ -44,6 +44,9 @@ public class TutorialFabricMod implements ModInitializer {
 
         // コマンドの登録
         Commands.init();
+
+        // ネットワークの登録
+        ServerNetworks.init();
     }
     
     // Identifierを生成する
