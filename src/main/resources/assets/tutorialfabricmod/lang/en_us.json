@@ -13,6 +13,9 @@
   "block.tutorialfabricmod.tutorial_block": "Tutorial Block",
   "block.tutorialfabricmod.click_count_block": "Click Count Block",
   "block.tutorialfabricmod.blue_apple_generator": "Blue Apple Generator",
+
+  "item.tutorialfabricmod.tutorial_item.tooltip": "The item is blue apple.",
+
   "enchantment.tutorialfabricmod.freeze": "Freeze",
 
   "itemGroup.tutorialfabricmod.tutorial": "Tutorial Mod"
